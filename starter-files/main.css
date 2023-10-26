@@ -30,11 +30,13 @@ h3 {
 }
 
 p {
-
+	float: right;
+	
 }
 
 .album-art {
-
+	padding: 20px;
+	border: 2px solid red
 }
 
 .clear {
@@ -42,6 +44,8 @@ p {
 }
 
 .image-electronics, .image-stage-effects {
+	border: 2px solid red;
+	padding: 20px;
 	
 }
 
@@ -50,10 +54,13 @@ p {
 }
 
 .track-list {
+	float:right;
 
 }
 
 #about-photo {
+	border:1px solid rgb(163, 3, 3);
+	padding: 20px;
 
 }
 
@@ -62,9 +69,19 @@ p {
 }
 
 #section-about, #section-discography, #section-equipment {
+	margin: 10px;
+	border: 1px solid red;
+	padding: 20px;
+	
 
 }
 
 #text-intro {
-	
+	float:none;
+	border: 2px solid red;
+	background-color: rgb(39, 38, 38);
+	padding: 20px 10px;
+	color:red;
+	margin: 18px
+
 }
