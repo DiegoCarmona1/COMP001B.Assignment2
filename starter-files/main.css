@@ -30,14 +30,16 @@ h3 {
 }
 
 p {
-	float: center;
+	line-height: 20px;
 	
 }
 
 .album-art {
 	float:left;
+	margin: 40px;
 	padding: 20px;
 	border: 2px solid red
+	
 	
 }
 
@@ -46,23 +48,29 @@ p {
 }
 
 .image-electronics, .image-stage-effects {
+	margin:25px;
 	border: 2px solid red;
 	padding: 20px;
+	float:left;
+	max-width: 200px;
 	
 }
 
 .record-label {
-
+	color: red;
+	font-style: italic;
 }
 
 .track-list {
-	
+	font-size: large;
 
 }
 
 #about-photo {
-	border:1px solid rgb(163, 3, 3);
+	Margin: 20px;
+	border: 1px solid rgb(163, 3, 3);
 	padding: 20px;
+	float:left;
 
 }
 
@@ -80,7 +88,7 @@ p {
 }
 
 #text-intro {
-	border: 2px solid red;
+	border: 1px solid red;
 	background-color: rgb(39, 38, 38);
 	padding: 20px 10px;
 	color:red;
